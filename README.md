@@ -14,7 +14,7 @@ I have built this board to have more flexibility when making custom lighting pro
 - **Mounting:** 3x M3 screws, and two 3d printed halves.
 
 ## Board Screenshots
-
+As shown in the images, 2 of the JST connectors are connected to the 5v output of the DC-DC converter, these two ports are for accessories.
 <img width="944" height="804" alt="image" src="https://github.com/user-attachments/assets/75b2113f-68c0-4dad-a9f7-409efebbd70f" />
 <img width="489" height="584" alt="image" src="https://github.com/user-attachments/assets/8c754fdd-5620-44a0-a5e6-729ff7bc6355" />
 <img width="724" height="855" alt="image" src="https://github.com/user-attachments/assets/95f46eda-984f-45d0-ab96-841e695e0476" />
