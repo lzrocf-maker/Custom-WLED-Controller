@@ -1,0 +1,9 @@
+Quantity,Component,Description,
+1,ESP32-C3-Mini,ESP32 dev board were you install WLED,https://www.amazon.es/gp/product/B0DS23ML1L/ref=ewc_pr_img_8?smid=A2OYQMAUQB5NOO&th=1
+6,JST Connectors,For connecting accessories and the led strips.,https://www.amazon.es/gp/product/B0D4QRK6VY/ref=ewc_pr_img_7?smid=A2GDD5M1I7N7PD&psc=1
+1,Screw Terminal,Standard connection blocks for power.,https://www.amazon.es/gp/product/B0G1BWGYRP/ref=ewc_pr_img_1?smid=AI7QB3KP4WHQY&psc=1
+1,Barrel Jack 2.5mm,Power connector for the board.,https://www.amazon.es/gp/product/B07KNNGQ4R/ref=ewc_pr_img_4?smid=A1A94E00UJ9A5S&psc=1
+1,Custom PCB,Fabricated using the provided Gerber files.,-
+3,M3 Screws,For securing the enclosure.,-
+1,DC-DC Converter,For the voltaje step down to power the esp32-c3,https://www.amazon.es/gp/product/B0G5QBVMDW/ref=ewc_pr_img_6?smid=A5T4G807L6570&th=1
+1,USB-C Cable,For configuring the ESP32-C3,-
