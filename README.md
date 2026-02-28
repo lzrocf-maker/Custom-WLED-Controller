@@ -43,3 +43,5 @@ This board uses WLED as the primary software, however, you can put any firmware 
 - The Gerbers.zip contains the files for PCB manufacturing.
 - WLED LED Controller.step contains the 3d model of the macropad.
 - The BOM file contains all the list of materials needed for manufacturing this project.
+
+<img width="1021" height="316" alt="image" src="https://github.com/user-attachments/assets/cde510dd-dc9a-4072-871a-2574c768dcad" />
