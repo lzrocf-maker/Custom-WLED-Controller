@@ -45,3 +45,9 @@ This board uses WLED as the primary software, however, you can put any firmware 
 - The BOM file contains all the list of materials needed for manufacturing this project.
 
 <img width="1021" height="316" alt="image" src="https://github.com/user-attachments/assets/cde510dd-dc9a-4072-871a-2574c768dcad" />
+
+## This is the total price and components from aliexpress, along with the pcb:
+![WhatsApp Image 2026-02-28 at 15 10 45](https://github.com/user-attachments/assets/e753d6e4-1613-4bb4-853e-896376d8b894)
+
+<img width="1410" height="637" alt="Captura de pantalla 2026-02-28 160116" src="https://github.com/user-attachments/assets/8b3cfa07-1249-49cc-b7ac-a9b6ada535f5" />
+
