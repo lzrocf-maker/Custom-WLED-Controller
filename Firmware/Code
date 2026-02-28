@@ -1,0 +1,38 @@
+#include <Adafruit_NeoPixel.h>
+
+// --- Configuración ---
+#define PIN_DATOS   8       // Pin GPIO donde conectaste el cable de datos
+#define NUM_LEDS    10      // Cambia esto al número de LEDs que tengas
+#define TIPO_LED    NEO_GRBW // Los SK6812 suelen ser GRBW
+
+// Inicializamos la tira de LEDs
+Adafruit_NeoPixel tira(NUM_LEDS, PIN_DATOS, TIPO_LED + NEO_KHZ800);
+
+void setup() {
+  tira.begin();            // Inicializa los pines
+  tira.show();             // Apaga todos los LEDs al inicio
+  tira.setBrightness(50);  // Brillo al 20% (para no deslumbrar y ahorrar energía)
+}
+
+void loop() {
+  // 1. Color Rojo
+  colorWipe(tira.Color(255, 0, 0, 0), 50); 
+  
+  // 2. Color Verde
+  colorWipe(tira.Color(0, 255, 0, 0), 50); 
+  
+  // 3. Color Azul
+  colorWipe(tira.Color(0, 0, 255, 0), 50); 
+  
+  // 4. Blanco Puro (Canal W del SK6812)
+  colorWipe(tira.Color(0, 0, 0, 255), 50); 
+}
+
+// Función para rellenar los LEDs uno por uno
+void colorWipe(uint32_t color, int espera) {
+  for(int i=0; i < tira.numPixels(); i++) {
+    tira.setPixelColor(i, color);
+    tira.show();
+    delay(espera);
+  }
+}
