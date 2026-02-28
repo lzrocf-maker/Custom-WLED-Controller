@@ -42,6 +42,7 @@ This board uses WLED as the primary software, however, you can put any firmware 
 - The files ended on .kicad_sch/pro/pcb are the PCB files.
 - The Gerbers.zip contains the files for PCB manufacturing.
 - WLED LED Controller.step contains the 3d model of the macropad.
+- There is a file named Code in the folder firmware that includes a code to test the leds, it blinks them from blue to red so you can make sure it works.
 - The BOM file contains all the list of materials needed for manufacturing this project.
 
 <img width="1021" height="316" alt="image" src="https://github.com/user-attachments/assets/cde510dd-dc9a-4072-871a-2574c768dcad" />
